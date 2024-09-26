@@ -35,47 +35,6 @@ body {
   }
 }
 
-.button {
-  appearance: none;
-  border-radius: 0;
-  text-align: inherit;
-  background: none;
-  box-shadow: none;
-  padding: 0;
-  cursor: pointer;
-  border: none;
-  color: inherit;
-
-  font-family: $heading-font;
-  text-transform: uppercase;
-}
-
-.input-field,
-.label,
-.select-list,
-.textarea-area {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  display: inline-block;
-  vertical-align: middle;
-  white-space: normal;
-  background: none;
-  line-height: 1;
-  appearance: textfield;
-}
-
-.input-field:focus,
-.textarea-area:focus {
-  outline: none;
-}
-
-.input-field::-webkit-outer-spin-button,
-.input-field::-webkit-inner-spin-button {
-  appearance: none;
-  margin: 0;
-}
-
 .list {
   margin: 0;
   padding: 0;
